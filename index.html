@@ -11,7 +11,7 @@
         /*   This is the first cloud and all its parts */
         
         #cloud-svg-1 {
-            background-color: skyblue;
+            background-color: transparent;
             max-width: 15em;
         }
         
@@ -97,6 +97,7 @@
             left: 4em;
             width: 4em;
             z-index: 0;
+            transition: transforms;
         }
         
         #first-barrel {
@@ -177,7 +178,13 @@
         #circ-16 {
             position: relative;
             top: -7em;
-            left: 10em;
+            left: 1em;
+        }
+        
+        @media (min-width: 600px) {
+            body {
+                background-color: black;
+            }
         }
     </style>
 </head>
@@ -264,7 +271,7 @@
             </g>
         </svg>
         </div>
-        <div>
+        <div id="first-flame-group">
             <svg id="flame-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72.22 84.63">
                 <defs>
                     <style>
