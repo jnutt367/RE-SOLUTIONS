@@ -12,5 +12,5 @@ gsap.fromTo("#circ-9", { x: 0 }, { duration: 6, x: -20, y: 10, repeat: -1 }, 0)
 gsap.fromTo("#circ-10", { x: 12 }, { duration: 5, x: 1, y: 10, repeat: -1 }, 0)
 gsap.to("#circ-6", { duration: 2, y: -10, x: 10, scale: 1.1, repeat: -1 })
 
-gsap.fromTo(".barrel", { y: -600 }, { duration: 6, y: -700, ease: "elastic.out", repeat: -1 })
+gsap.fromTo(".barrel", { y: -500 }, { duration: 4, y: -600, ease: "elastic.out", repeat: -1 })
 gsap.to("#cloud-svg-2", { x: 15 })
