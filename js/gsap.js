@@ -1,0 +1,15 @@
+gsap.to("#cloud-svg-1", { y: 10 })
+gsap.fromTo("#circ-1", { x: 10 }, { duration: 4, x: 15, y: 10, repeat: -1 }, 0)
+gsap.fromTo("#circ-2", { x: 5 }, { duration: 2, x: 2, y: -10, repeat: -1 }, 0)
+gsap.fromTo("#circ-3", { x: 15 }, { duration: 6, x: 15, y: 10, repeat: -1 }, 0)
+gsap.fromTo("#circ-4", { x: 12 }, { duration: 5, x: 1, y: 10, repeat: -1 }, 0)
+gsap.to("#cloud-svg-2", { y: -110, x: 100, scale: 1.3 })
+
+gsap.to("#cloud-svg-2", { y: -300 })
+gsap.fromTo("#circ-7", { x: 10 }, { duration: 4, x: 15, y: 10, repeat: -1 }, 0)
+gsap.fromTo("#circ-8", { x: 5 }, { duration: 2, x: 2, y: -10, repeat: -1 }, 0)
+gsap.fromTo("#circ-9", { x: 0 }, { duration: 6, x: -20, y: 10, repeat: -1 }, 0)
+gsap.fromTo("#circ-10", { x: 12 }, { duration: 5, x: 1, y: 10, repeat: -1 }, 0)
+gsap.to("#circ-6", { duration: 2, y: -10, x: 10, scale: 1.1, repeat: -1 })
+
+gsap.fromTo(".barrel", { y: -600 }, { duration: 6, y: -700, ease: "bounce.in", repeat: -1 })
