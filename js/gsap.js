@@ -14,6 +14,6 @@ gsap.to("#circ-6", { duration: 2, y: -10, x: 10, scale: 1.1, repeat: -1 })
 
 gsap.fromTo(".barrel", { y: -500 }, { duration: 4, y: -700, ease: "elastic.out", repeat: -1 })
 gsap.to("#cloud-svg-2", { x: 15 })
-gsap.to(".cls-9", { y: 20, repeat: -1 })
+gsap.to(".cls-9", { duration: .1, y: 30, ease: "back", repeat: -1 })
 gsap.fromTo("#flame-1", { y: 10 }, { duration: 4, y: -154, ease: "elastic", repeat: -1 })
 gsap.fromTo("#flame-2", { y: 10 }, { duration: 4, y: -152, ease: "elastic.out", repeat: -1, zIndex: 0 })
